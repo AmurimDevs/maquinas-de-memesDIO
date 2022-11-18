@@ -2,7 +2,7 @@
 
 # Sobre o projeto:
 
-O Máquina de memes foi desenvolvido através de um projeto exclusivo e gratuito da DIO
+O Máquina de memes foi desenvolvido através de lives exclusivas e gratuitas da DIO
 
 O projeto durou dois dias, no primeiro dia tivemos contato com HTML e CSS, já no segundo tivemos contato com JavaScript dando mais corpo e vida ao projeto
 
@@ -14,7 +14,7 @@ Esse é o primeiro que lanço em meu Github, aprendi bastente sobre as tecnologi
 
 # Tecnologias utilizadas
 
-![tec 1](
+- HTML | CSS | JavaScript
 
 # Autor
 
