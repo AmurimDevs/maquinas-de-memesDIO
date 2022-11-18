@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MÁQUINA DE MEMES</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="app">
+
+            <div class="logo">
+                <img src="./pictures/logo.png" alt="">
+            </div>
+            <div id="downlabled">
+                <div class="app-image">
+                    <textarea 
+                        name="" 
+                        class="text-box" 
+                        placeholder="Digite seu meme" 
+                        aria-multiline="true"
+                    ></textarea>
+
+                    <div id="display-image"></div>
+
+                    <textarea 
+                        name="" 
+                        class="text-box" 
+                        placeholder="Digite seu meme" 
+                        aria-multiline="true"
+                    ></textarea>
+
+                </div>
+            </div>
+            <div class="app-photo-picker">
+
+                <select 
+                    id="memes-list"
+                    onchange="changeMemePicture(this.value)"
+                >
+                </select>
+
+                <input 
+                    type="file" 
+                    id="image-input"
+                    accept="image/jpeg, image/png, image/jpg"
+                >
+            </div>
+
+            <div class="download">
+                <button id="btn-download">DOWNLOAD</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./javascript/script.js"></script>
+    <script src="./javascript/hmtl2Canvas.js"></script>
+  <script>
+
+    document.getElementById("btn-download").onclick = () =>{
+      const screenshotPrint = document.querySelector("#downlabled")
+
+      html2canvas(screenshotPrint).then((canvas)=>{
+        console.log(screenshotPrint)
+        const base64Image = canvas.toDataURL("image/png")
+        let anchor = document.createElement("a")
+        anchor.setAttribute("href", base64Image)
+        anchor.setAttribute("download", "my-meme.png")
+        anchor.click()
+        anchor.remove()
+      })
+
+    }
+
+  </script>
+</body>
+</html>
