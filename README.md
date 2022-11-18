@@ -10,7 +10,7 @@ Esse é o primeiro que lanço em meu Github, aprendi bastente sobre as tecnologi
 
 ## Imagens do projeto pronto
 
-![Mobile 1](https://github.com/AmurimDevs/maquinas-de-memesDIO/blob/main/assents/layout.png) ![Mobile 2](https://github.com/AmurimDevs/maquinas-de-memesDIO/blob/main/assents/my-meme.png)
+![Mobile 1](https://github.com/AmurimDevs/maquinas-de-memesDIO/blob/main/assents/cap01.png) ![Mobile 2](https://github.com/AmurimDevs/maquinas-de-memesDIO/blob/main/assents/my-meme.png)
 
 # Tecnologias utilizadas
 
