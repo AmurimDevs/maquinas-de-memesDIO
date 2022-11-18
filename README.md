@@ -1,10 +1,12 @@
 # Máquina de memes DIO
 
-# Sobre o projeto
+# Sobre o projeto:
 
 O Máquina de memes foi desenvolvido através de um projeto exclusivo e gratuito da DIO
+
 O projeto durou dois dias, no primeiro dia tivemos contato com HTML e CSS, já no segundo tivemos contato com JavaScript dando mais corpo e vida ao projeto
-Esse é o primeiro que lanço em meu Github, aprendi bastente principalmente sobre a parte de estilização da página.
+
+Esse é o primeiro que lanço em meu Github, aprendi bastente sobre as tecnologias usadas, principalmente sobre a parte de estilização da página.
 
 ## Imagens do projeto pronto
 
@@ -12,7 +14,7 @@ Esse é o primeiro que lanço em meu Github, aprendi bastente principalmente sob
 
 # Tecnologias utilizadas
 
-- HTML / CSS / JS / 
+![tec 1](
 
 # Autor
 
